@@ -1,4 +1,4 @@
-# Random VIN Barcodes generator
+# Random VIN Barcodes Generator
 
 A simple python script that fetches __real__ VIN numbers from [randomvin.com](http://randomvin.com/) and generates barcodes with [python-barcodes](https://github.com/WhyNotHugo/python-barcode).
 
@@ -7,13 +7,13 @@ A simple python script that fetches __real__ VIN numbers from [randomvin.com](ht
 Use [pipenv](https://pipenv.readthedocs.io/en/latest/) for install all project's dependencies.
 
 ```bash
-# installs all dependencies
+# install all dependencies
 $ pipenv install
 
-# fetches real VIN numbers
+# fetch real VIN numbers
 $ python fetch-vins.py
 
-# generates barcodes in SVG
+# generate barcodes in SVG format
 $ python generate.py
 ```
 
