@@ -2,7 +2,7 @@ import requests
 import json
 
 BASE_URL = 'http://randomvin.com/getvin.php?type=real'
-COUNT = 50
+COUNT = 100
 
 
 def main():
@@ -19,7 +19,6 @@ def main():
         except Exception as e:
             print('error:', str(e))
             failed_attempts += 1
-            continue
 
     print('{} successful attempts'.format(len(vins)))
     print('{} failed attempts'.format(len(vins)))
