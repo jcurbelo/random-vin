@@ -63,10 +63,10 @@
         },
         "autopep8": {
             "hashes": [
-                "sha256:0f592a0447acea0c2b0a9602be1e4e3d86db52badd2e3c84f0193bfd89fd3a43"
+                "sha256:60fd8c4341bab59963dafd5d2a566e94f547e660b9b396f772afe67d8481dbf0"
             ],
             "index": "pypi",
-            "version": "==1.5"
+            "version": "==1.5.3"
         },
         "isort": {
             "hashes": [
