@@ -19,4 +19,8 @@ $ python fetch-vins.py
 $ python generate.py
 ```
 
+## Example
+
+![Example VINs](img/example.png)
+
 Enjoy it!

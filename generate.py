@@ -32,6 +32,7 @@ HTML_TEMPLATE = """
 
 def main():
     try:
+        print('parsing "vins.json".')
         with open('vins.json', 'r') as f:
             img_html_tags = []
             vins = json.load(f)
@@ -45,8 +46,10 @@ def main():
     # generates html
     output = HTML_TEMPLATE.format(''.join(img_html_tags))
     # writes html file
+    print('writing output into "index.html"...')
     with open('index.html', 'w') as f:
         f.write(output)
+    print('done!')
 
 
 main()

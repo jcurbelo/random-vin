@@ -2,7 +2,7 @@ import requests
 import json
 
 BASE_URL = 'http://randomvin.com/getvin.php?type=real'
-COUNT = 100
+COUNT = 10
 
 
 def main():
@@ -22,7 +22,7 @@ def main():
 
     print('{} successful attempts'.format(len(vins)))
     print('{} failed attempts'.format(len(vins)))
-    print('saving to file...')
+    print('saving to "vins.json" file...')
     with open('vins.json', 'w') as f:
         json.dump(vins, f)
     print('done!')
