@@ -1,5 +1,7 @@
 # Random VIN Barcodes Generator
 
+![CI](https://github.com/jcurbelo/random-vin/workflows/CI/badge.svg)
+
 A simple python script that fetches __real__ VIN numbers from [randomvin.com](http://randomvin.com/) and then generates an HTML page with their barcodes representation using [TEC-IT](https://www.tec-it.com).
 
 ## How to use it
